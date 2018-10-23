@@ -53,8 +53,8 @@ require __DIR__.'/functions.php';
 			text-align: center;
 			background-color: black;
 			border-radius: 90px;
-			width: 400px;
-			height: 500px;
+			width: 700px;
+			height: 300px;
 			margin-bottom: 40px;
 			padding: 40px;
 		  }
@@ -69,6 +69,10 @@ require __DIR__.'/functions.php';
 		  	color: #98FB98;
 		  }
 
+		  .name {
+			color: #98FB98;
+		  }
+
 		  .publishedDate {
 		  	display: flex;
 			flex-direction: column;
@@ -77,7 +81,12 @@ require __DIR__.'/functions.php';
 
 			color: #98FB98;
 
+		  }
 
+		  .likeCounter {
+		  	display:flex;
+			justify-content: flex-end;
+		  	color: #98FB98;
 		  }
 
 
@@ -95,18 +104,24 @@ require __DIR__.'/functions.php';
 		 </header>
 
 		 <?php foreach($data as $item): ?>
+
 		 		<div class="container">
-
+						<?php foreach ($authors as $author):?>
 					<div class="box">
+						<h1 class="name"> <?php echo $author['name'];?> </h1>
+							<h2 class="title"><?php echo $item['title']; ?> </h2>
 
-							<h2 class="title"><?php echo $item['title']; ?></h2>
+									<p class="content"><?php echo "$item[content] <br><br>";?> </p>
 
-						<p class="content"><?php echo "$item[content] <br><br>";?></p>
-							<p class="publishedDate"><b>Published date:</b><?php echo " $item[publishedDate]"; ?></p>
+											<p class="publishedDate"><b>Published date: </b>
+												<?php echo "$item[publishedDate]"; ?> </p>
+												<p class="likeCounter"><b>Like Counter:  </b>
+													<?php echo "$item[likeCounter]"; ?> </p>
 
-						</div>
+											</div>
 
 			<?php endforeach; ?>
+		<?php endforeach; ?>
 			</div>
 
     </body>

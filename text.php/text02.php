@@ -1,0 +1,4 @@
+<?php
+'It was a dog. It was a big dog. So easy, so simple! And like shipwrecked men turning to seawater foregoing uncontrollable thirst, many have died trying.
+  Master Wayne, you\'ve been gone a long time. You look very fashionable. Apart from the mud. Well these conversation used to end with an unusual request. Well, let me show you some stuff, anyway. Just for old times\' sake. The city needs Bruce Wayne, your resources, your knowledge. It doesn\'t need your body or your life. That time is past. Dr. Crane isn\'t here right now. But if you\'d like to make an appointment.
+  No guns, no killing. I think you and your friend have found the last game in town. where it hurts, their wallets. It\'s bold. You gonna count me in? We have purged your fear. You are ready to Iead these men. You are ready to become a member of the League of Shadows. But first, you must demonstrate your commitment to justice.';
