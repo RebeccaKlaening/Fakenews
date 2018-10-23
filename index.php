@@ -18,21 +18,93 @@ require __DIR__.'/functions.php';
 
 		  <style>
 
+
+		  body {
+		  height: 100vh;
+	    widows: 100vw;
+		 margin: 30px;
+		 background-color: white;
+
+	 	}
+
+		.header {
+			display: flex;
+		 justify-content: center;
+		 flex-direction: row;
+		 font-size: 40px;
+		 font-family: bold;
+		 text-transform:uppercase;
+		}
+
 		  .container {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: left;
+			align-items: center;
+			flex-direction: column;
+			padding-top: 40px;
+			margin: auto;
+
 
 		  }
 
+		  .box {
+			flex-direction: column;
+			text-align: center;
+			background-color: black;
+			border-radius: 90px;
+			width: 400px;
+			height: 500px;
+			margin-bottom: 40px;
+			padding: 40px;
+		  }
+
+		  .content {
+			  text-align: left;
+
+			  color: #98FB98;
+		  }
+
+		  .title {
+		  	color: #98FB98;
+		  }
+
+		  .publishedDate {
+		  	display: flex;
+			flex-direction: column;
+			justify-content: flex-start;
+			align-items: baseline;
+
+			color: #98FB98;
+
+
+		  }
+
+
+
+
 		  </style>
+
     </head>
 
 
 
     <body>
+		 <header class="header">
+		 	Fake News
+		 </header>
+
 		 <?php foreach($data as $item): ?>
 		 		<div class="container">
-					<h2><?php echo $item['title']; ?></h2>
-						<p><?php echo $item['content']; ?></p>
-						<p><?php echo $item['published date']; ?></p>
+
+					<div class="box">
+
+							<h2 class="title"><?php echo $item['title']; ?></h2>
+
+						<p class="content"><?php echo "$item[content] <br><br>";?></p>
+							<p class="publishedDate"><b>Published date:</b><?php echo " $item[publishedDate]"; ?></p>
+
+						</div>
 
 			<?php endforeach; ?>
 			</div>
