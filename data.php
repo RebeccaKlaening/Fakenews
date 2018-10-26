@@ -33,8 +33,9 @@ $data = [
     'author' => 1,
     'title' => ' Harry Potter Philosopher\'s Stone',
     'publishedDate' => '1997-05-25',
-    'content' => require __DIR__.'/text.php/text01.php',
+    'content' => file_get_contents(__DIR__.'/text/text01.txt'),
     'likeCounter' => 44
+
 
   ],
 
@@ -42,7 +43,7 @@ $data = [
     'author' => 2,
     'title' => ' IT',
     'publishedDate' => '1986-10-31',
-    'content' => require __DIR__.'/text.php/text02.php',
+    'content' => file_get_contents(__DIR__.'/text/text02.txt'),
     'likeCounter' => 52
   ],
 
@@ -50,7 +51,7 @@ $data = [
     'author' => 3,
     'title' => ' Låt den rätte komma in',
     'publishedDate' => '2004-09-10',
-    'content' => require __DIR__.'/text.php/text03.php',
+    'content' => file_get_contents(__DIR__.'/text/text03.txt'),
     'likeCounter' => 23
   ],
 
@@ -58,7 +59,7 @@ $data = [
     'author' => 4,
     'title' => ' Lord of the Rings',
     'publishedDate' => '1954-06-02',
-    'content' => require __DIR__.'/text.php/text04.php',
+    'content' => file_get_contents(__DIR__.'/text/text04.txt'),
 	 'likeCounter' => 87
   ],
 
@@ -66,7 +67,7 @@ $data = [
     'author' => 5,
     'title' => ' Confessions of a Shopaholic',
     'publishedDate' => '2001-02-14',
-    'content' => require __DIR__.'/text.php/text05.php',
+    'content' => file_get_contents(__DIR__.'/text/text05.txt'),
     'likeCounter' => 38
   ],
 
@@ -74,7 +75,7 @@ $data = [
     'author' => 1,
     'title' => 'Harry Potter and the Chamber of Secrets',
     'publishedDate' => '2002-08-14',
-    'content' => require __DIR__.'/text.php/text06.php',
+    'content' => file_get_contents(__DIR__.'/text/text06.txt'),
     'likeCounter' => 44
 
   ],
@@ -83,7 +84,7 @@ $data = [
     'author' => 2,
     'title' => 'The Shining',
     'publishedDate' => '2006-09-21',
-    'content' => require __DIR__.'/text.php/text07.php',
+    'content' => file_get_contents(__DIR__.'/text/text07.txt'),
     'likeCounter' => 52
   ],
 
@@ -91,7 +92,7 @@ $data = [
     'author' => 3,
     'title' => 'Hanteringen av odöda',
     'publishedDate' => '2010-05-24',
-    'content' => require __DIR__.'/text.php/text08.php',
+    'content' => file_get_contents(__DIR__.'/text/text08.txt'),
     'likeCounter' => 23
   ],
 
@@ -99,7 +100,7 @@ $data = [
     'author' => 4,
     'title' => 'The Two Towers',
     'publishedDate' => '2009-06-07',
-    'content' => require __DIR__.'/text.php/text09.php',
+    'content' => file_get_contents(__DIR__.'/text/text09.txt'),
     'likeCounter' => 67
   ],
 
@@ -107,7 +108,7 @@ $data = [
     'author' => 5,
     'title' => 'Shopaholic Abroad ',
     'publishedDate' => '1989-04-11',
-    'content' => require __DIR__.'/text.php/text10.php',
+    'content' => file_get_contents(__DIR__.'/text/text10.txt'),
     'likeCounter' => 38
   ],
 
