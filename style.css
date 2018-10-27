@@ -8,6 +8,8 @@
 
 		nav {
 		background: 	#F5F5F5;
+		margin: 0;
+		padding: 0;
 		}
 
 		nav ul{
@@ -45,7 +47,7 @@
 
 		  .box {
 			text-align: center;
-			background-color: #A9A9A9;
+			background-color: black;
 			border-radius: 20px;
 			width: 600px;
 			height: 400px;
