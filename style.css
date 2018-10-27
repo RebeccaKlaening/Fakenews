@@ -7,7 +7,7 @@
 	 	}
 
 		nav {
-		background: #C0C0C0;
+		background: 	#F5F5F5;
 		}
 
 		nav ul{
@@ -19,8 +19,9 @@
 		}
 
 		nav a {
-			color: #fff;
-			font-family: cursive;
+			color: black;
+			text-transform: uppercase;
+			font-family: bold;
 			font-size: 20px;
 			text-decoration: none;
 			display: block;
@@ -44,12 +45,12 @@
 
 		  .box {
 			text-align: center;
-			background-color: black;
+			background-color: #A9A9A9;
 			border-radius: 20px;
 			width: 600px;
 			height: 400px;
 			margin-bottom: 40px;
-			padding: 40px;
+			padding: 30px;
 		  }
 
 		  .content {
