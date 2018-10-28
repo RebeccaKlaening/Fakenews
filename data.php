@@ -35,6 +35,8 @@ $data = [
     'publishedDate' => '2018-08-09',
     'content' => file_get_contents(__DIR__.'/text/text01.txt'),
     'likeCounter' => 44
+	 //'image' =>'image.jpg/jkrowling.jpeg'
+
 
 
   ],
@@ -45,6 +47,8 @@ $data = [
     'publishedDate' => '2018-04-11',
     'content' => file_get_contents(__DIR__.'/text/text02.txt'),
     'likeCounter' => 52
+	 //'image' => 'image.jpg/king.jpeg'
+
   ],
 
   [
@@ -53,6 +57,8 @@ $data = [
     'publishedDate' => '2018-05-23',
     'content' => file_get_contents(__DIR__.'/text/text03.txt'),
     'likeCounter' => 23
+	 //'image' => 'image.jpg/john.jpeg'
+
   ],
 
   [
@@ -61,6 +67,8 @@ $data = [
     'publishedDate' => '2018-02-15',
     'content' => file_get_contents(__DIR__.'/text/text04.txt'),
 	 'likeCounter' => 87
+	 //'image' => 'image.jpg/jrrt.jpg'
+
   ],
 
   [
@@ -69,6 +77,8 @@ $data = [
     'publishedDate' => '2017-12-17',
     'content' => file_get_contents(__DIR__.'/text/text05.txt'),
     'likeCounter' => 38
+	 //'image' => 'image.jpg/190px-Sophie_Kinsella.jpg'
+
   ],
 
   [
@@ -77,6 +87,7 @@ $data = [
     'publishedDate' => '2017-10-27',
     'content' => file_get_contents(__DIR__.'/text/text06.txt'),
     'likeCounter' => 44
+	 //'image' => 'image.jpg/jkrowling.jpeg'
 
   ],
 
@@ -86,6 +97,8 @@ $data = [
     'publishedDate' => '2017-11-04',
     'content' => file_get_contents(__DIR__.'/text/text07.txt'),
     'likeCounter' => 52
+	 //'image' => 'image.jpg/king.jpeg'
+
   ],
 
   [
@@ -94,6 +107,8 @@ $data = [
     'publishedDate' => '2017-08-18',
     'content' => file_get_contents(__DIR__.'/text/text08.txt'),
     'likeCounter' => 23
+	 //'image' => 'image.jpg/john.jpeg'
+
   ],
 
   [
@@ -102,6 +117,8 @@ $data = [
     'publishedDate' => '2017-06-18',
     'content' => file_get_contents(__DIR__.'/text/text09.txt'),
     'likeCounter' => 67
+	 //'image' => 'image.jpg/jrrt.jpg'
+
   ],
 
   [
@@ -110,6 +127,6 @@ $data = [
     'publishedDate' => '2017-05-19',
     'content' => file_get_contents(__DIR__.'/text/text10.txt'),
     'likeCounter' => 38
-  ],
-
+	 //'image' => 'image.jpg/190px-Sophie_Kinsella.jpg'
+	]
   ];

@@ -41,13 +41,13 @@ require __DIR__.'/functions.php';
 
 
 			<div class="box">
-				<div>
+
 					<h1 class="name"> <?php echo $authorName;?> </h1>
-				</div>
-				<div>
-					<h2 class="title"><?php echo $item['title']; ?> </h2>
-				</div>
-				<div>
+
+
+					<h2 class="title"><?php echo "$item[title]"; ?> </h2>
+
+
 					<p class="content"><?php echo "$item[content] <br><br>";?> </p>
 
 					<p class="publishedDate"><b>Published date: </b>
@@ -55,8 +55,10 @@ require __DIR__.'/functions.php';
 						<p class="likeCounter"><b>Like Counter:  </b>
 							<?php echo "$item[likeCounter]"; ?> </p>
 						</div>
+						<img src="<?php echo "$item[image]"; ?>" alt="pic">
+
 					</div>
-				</div>
+
 
 			<?php endforeach; ?>
 
