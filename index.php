@@ -52,7 +52,7 @@ require __DIR__.'/functions.php';
 
 					<p class="publishedDate"><b>Published date: </b>
 						<?php echo "$item[publishedDate]"; ?> </p>
-						<p class="likeCounter"><b>Like Counter:  </b>
+						<p class="likeCounter"><b>Likes:  </b>
 							<?php echo "$item[likeCounter]"; ?> </p>
 						</div>
 						<img src="<?php echo "$item[image]"; ?>" alt="pic">
