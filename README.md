@@ -10,11 +10,19 @@ The Assignment:
 * The project should be written in PHP, HTML, CSS and JavaScript only.
 
 
-
-Description to view my project:
+How To Use:
 
 * Clone/download repository from GitHub
 * Download/open MAMP
-* Go to Preferences in MAMP and set Web Server (root directory) to the folder
+* Go to Preferences in MAMP and set Web Server to the folder you just downloaded 
 * Press "Start Servers" in MAMP
 * Open the index.php-file by typing localhost:8888 in your browser
+
+
+
+Tested by: 
+Benjamin Fransson 
+
+
+License: 
+MIT 
