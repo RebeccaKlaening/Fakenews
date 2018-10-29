@@ -1,7 +1,7 @@
 # Fakenews
 Assignment Fakenews
 
-https://thumbs.gfycat.com/SadOpulentDassie-size_restricted.gif
+<img src="https://thumbs.gfycat.com/SadOpulentDassie-size_restricted.gif">
 
 The Assignment:
 
