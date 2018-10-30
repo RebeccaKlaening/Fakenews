@@ -27,8 +27,8 @@ require __DIR__.'/functions.php';
 	<nav>
 		<ul>
 			<li> <a href="">Home</a></li>
-			<li> <a href="">Contact</a></li>
-			<li><a href="">About</a></li>
+			<li> <a href="">About</a></li>
+			<li><a href="">Contact</a></li>
 		</ul>
 	</nav>
 	<header class="header">
@@ -37,27 +37,28 @@ require __DIR__.'/functions.php';
 
 	<?php foreach($data as $item): ?>
 		<?php $authorName = getName($item['author'],$authors); ?>
-			<div class="container">
+		<div class="container">
 
 
 			<div class="box">
 
-					<h1 class="name"> <?php echo $authorName;?> </h1>
+				<h1 class="name"> <?php echo $authorName;?> </h1>
 
 
-					<h2 class="title"><?php echo "$item[title]"; ?> </h2>
+				<h2 class="title"><?php echo "$item[title]"; ?> </h2>
 
 
-					<p class="content"><?php echo "$item[content] <br><br>";?> </p>
+				<p class="content"><?php echo "$item[content] <br><br>";?> </p>
 
-					<p class="publishedDate"><b>Published date: </b>
+				<p class="likeCounter"><b>Likes: </b>
+					<?php echo "$item[likeCounter]"; ?> </p>
+
+				<p class="publishedDate"><b>Published date:  </b>
 						<?php echo "$item[publishedDate]"; ?> </p>
-						<p class="likeCounter"><b>Likes:  </b>
-							<?php echo "$item[likeCounter]"; ?> </p>
-						</div>
-						<img src="<?php echo "$item[image]"; ?>" alt="pic">
-
 					</div>
+
+
+				</div>
 
 
 			<?php endforeach; ?>
