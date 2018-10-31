@@ -24,6 +24,7 @@ require __DIR__.'/functions.php';
 
 
 <body>
+	<!--- navbar --->
 	<nav>
 		<ul>
 			<li> <a href="">Home</a></li>
@@ -31,11 +32,13 @@ require __DIR__.'/functions.php';
 			<li><a href="">Contact</a></li>
 		</ul>
 	</nav>
+
 	<header class="header">
 		Fake News
 	</header>
 
 	<?php foreach($data as $item): ?>
+		<!--- to print out the authors name from my function--->
 		<?php $authorName = getName($item['author'],$authors); ?>
 		<div class="container">
 
@@ -50,11 +53,11 @@ require __DIR__.'/functions.php';
 
 				<p class="content"><?php echo "$item[content] <br><br>";?> </p>
 
-				<p class="likeCounter"><b>Likes: </b>
-					<?php echo "$item[likeCounter]"; ?> </p>
+				<p class="likeCounter">
+					<b>	<?php echo 'Likes: '  . $item['likeCounter']; ?> </b> </p>
 
-				<p class="publishedDate"><b>Published date:  </b>
-						<?php echo "$item[publishedDate]"; ?> </p>
+					<p class="publishedDate">
+						<b>	<?php echo 'Published: ' . $item['publishedDate']; ?> </b>  </p>
 					</div>
 
 

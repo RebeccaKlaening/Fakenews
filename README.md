@@ -25,6 +25,7 @@ Assignment Fakenews
 ## Tested by
 - Benjamin Fransson
 - Gustav Svendsen
+- Charmaine Wang
 
 
 
