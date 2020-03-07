@@ -1,26 +1,22 @@
-
 body {
 
 	display: flex;
 	flex-direction: column;
 	background-color: white;
 	font-family: bold;
-
 }
 
 nav {
 	background-color: #F5F5F5;
 	position: sticky;
 	top: 0;
-
 }
 
-nav ul{
+nav ul {
 	display: flex;
 	justify-content: space-around;
 	list-style-type: none;
 	padding: 0;
-
 }
 
 nav a {
@@ -30,15 +26,11 @@ nav a {
 	text-decoration: none;
 	display: block;
 	padding: 10px;
-
-
-
 }
 
 nav a:hover {
 	opacity: 1;
 	color:#708090;
-
 }
 
 .header {
@@ -49,14 +41,12 @@ nav a:hover {
 	font-family: sans-serif;
 	text-transform:uppercase;
 	margin: 70px;
-
 }
 
 .container {
 	display: flex;
 	justify-content: center;
 	margin-bottom: 100px;
-
 }
 
 .box {
@@ -67,15 +57,12 @@ nav a:hover {
 	padding: 30px;
 	margin: auto;
 	font-size: 20px;
-
 }
 
 .content {
 	text-align: left;
 	color: white;
 	padding: 20px;
-
-
 }
 
 .title {
@@ -88,11 +75,9 @@ nav a:hover {
 
 .publishedDate {
 	color: white;
-
 }
 
 .likeCounter {
 	margin-bottom: 30px;
 	color: white;
-
 }

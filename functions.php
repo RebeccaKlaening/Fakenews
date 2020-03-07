@@ -8,15 +8,12 @@ function sortByDate ($a, $b) {
 }
 usort($data, 'sortByDate');
 
-
-
 // a function to search for the index of the id which will print the authors name.
 function getName(int $searchId, array $authors): string {
-		foreach ($authors as $author) {
-				$id = $author ['id'];
-					if ($id == $searchId) {
-						return $author ['name'];
-					}
-		}
-
+	foreach ($authors as $author) {
+		$id = $author ['id'];
+			if ($id == $searchId) {
+				return $author ['name'];
+			}
+	}
 };
